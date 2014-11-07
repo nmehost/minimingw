@@ -1,0 +1,14 @@
+{
+  "name": "minimingw",
+  "url": "http://nmehost.com/",
+  "license": "BSD",
+  "tags": [ "haxe", "hxcpp", "cpp", "mingw", "minimingw" ],
+  "description": "A minimal set of files you need for compiling hxcpp code on windows.",
+  "version": "1.0.0",
+  "releasenote": "See Changes.md",
+  "contributors": ["gamehaxe"],
+  "binaryversion": 1,
+  "dependencies": {
+
+  }
+}
