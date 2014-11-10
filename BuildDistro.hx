@@ -62,6 +62,9 @@ class BuildDistro
          for(file in files.split("\n"))
             if (file.length>0 && file.substr(0,1)!="#")
                copyRecurse(mingwSrc,"MinGW",file.split("{VERSION}").join(mingwVersion));
+
+         for(file in ["haxelib.json", "Changes.md"] )
+            copyRecurse(".","MinGW",file);
       }
       catch(e:Dynamic)
       {
